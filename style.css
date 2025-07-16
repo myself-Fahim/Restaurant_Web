@@ -111,3 +111,147 @@
     font-weight: 600;
     border: none;
 }
+
+/* Pizza Card Section */
+.pizza-card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    background-color: white;
+}
+
+.pizza-card {
+    width: 424px;
+    height: 651px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card_image_part {
+    width: 424px;
+    height: 283px;
+    background-image: url('./assets/pizza.png');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.card_bottom_part {
+    width: 424px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.pizza_burg_box {
+    width: 187px;
+    height: 56px;
+    background-color: rgba(82, 195, 3, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #52C303;
+}
+
+.card_bottom_part h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    color: black;
+}
+
+.card_bottom_part p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: gray;
+    margin: 0;
+}
+
+.shopbutton {
+    background-color: #52C303;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.shopbutton:hover {
+    background-color: #3d9202;
+}
+
+/* About Us */
+.about-us {
+    display: flex;
+    margin: 150px 0 116px;
+}
+
+.us-img {
+    width: 50%;
+}
+
+.us-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.us-des {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.us-des h1 {
+    font-size: 43px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.us-des p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 48px;
+}
+
+.us-des h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 23px 0;
+}
+
+.us-des hr {
+    width: 775px;
+    margin: 0 auto;
+    color: #10101033;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
